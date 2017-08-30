@@ -3,7 +3,7 @@ Contributors: jcow, ekaj
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=jacobsnyder%40gmail%2ecom&lc=US&item_name=Jacob%20Snyder&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
 Tags: seo,search engine,meta data
 Requires at least: 3.6.1
-Tested up to: 4.7.3
+Tested up to: 4.8.1
 Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
