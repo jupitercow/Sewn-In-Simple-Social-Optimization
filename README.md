@@ -7,12 +7,13 @@ A very simple SEO interface to update Twitter and Facebook meta tags.
 
 Adds a fast, simple interface for adding Social Media meta data to pages and posts. Designed to remove all of the extra stuff that you just won't use. It is made to be straight forward for users with no confusing extras and no annoying ads. So you can enjoy using it and feel comfortable putting it before a client.
 
-This can be used on its own, but it is more poweful when used with the [Sewn In Simple SEO](https://wordpress.org/plugins/sewn-in-simple-seo/) plugin.
+This can be used on its own, but it is more powerful when used with the [Sewn In Simple SEO](https://wordpress.org/plugins/sewn-in-simple-seo/) plugin.
 
 *	Choose which post types it is added to (public post types by default)
 *	Integrates nicely with the [Sewn In Simple SEO](https://wordpress.org/plugins/sewn-in-simple-seo/) plugin, so they get merged into one panel for editing
 
 Very simple, no cruft or extra features you won't use.
+
 
 ## Control what post types are added
 

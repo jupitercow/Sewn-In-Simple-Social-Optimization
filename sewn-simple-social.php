@@ -2,14 +2,14 @@
 
 /**
  * @link              https://github.com/jupitercow/sewn-in-simple-social
- * @since             2.1.0
+ * @since             1.0.0
  * @package           Sewn_Social
  *
  * @wordpress-plugin
  * Plugin Name:       Sewn In Simple Social Optimization
  * Plugin URI:        https://wordpress.org/plugins/sewn-in-simple-social/
  * Description:       Adds a very simple, clean interface for controlling sharing of website content on social media sites. Currently through Facebook Open Graph and Twitter APIs.
- * Version:           2.1.0
+ * Version:           1.0.1
  * Author:            Jupitercow
  * Author URI:        http://Jupitercow.com/
  * Contributor:       Jake Snyder
@@ -32,7 +32,7 @@ class Sewn_Social
 	/**
 	 * The unique prefix for Sewn In.
 	 *
-	 * @since    2.1.0
+	 * @since    1.0.0
 	 * @access   protected
 	 * @var      string    $prefix         The string used to uniquely prefix for Sewn In.
 	 */
@@ -41,7 +41,7 @@ class Sewn_Social
 	/**
 	 * The unique identifier of this plugin.
 	 *
-	 * @since    2.1.0
+	 * @since    1.0.0
 	 * @access   protected
 	 * @var      string    $plugin_name    The string used to uniquely identify this plugin.
 	 */
@@ -50,7 +50,7 @@ class Sewn_Social
 	/**
 	 * The current version of the plugin.
 	 *
-	 * @since    2.1.0
+	 * @since    1.0.0
 	 * @access   protected
 	 * @var      string    $version    The current version of the plugin.
 	 */
@@ -59,7 +59,7 @@ class Sewn_Social
 	/**
 	 * The unique identifier of this plugin.
 	 *
-	 * @since    2.1.0
+	 * @since    1.0.0
 	 * @access   protected
 	 * @var      string    $settings       The array used for settings.
 	 */
@@ -68,13 +68,13 @@ class Sewn_Social
 	/**
 	 * Define the core functionality of the plugin.
 	 *
-	 * @since    2.1.0
+	 * @since    1.0.0
 	 */
 	public function __construct()
 	{
 		$this->prefix      = 'sewn';
 		$this->plugin_name = strtolower(__CLASS__);
-		$this->version     = '2.1.0';
+		$this->version     = '1.0.1';
 		$this->settings    = array(
 			'add_frontend'      => true,
 			'add_fields'        => true,
@@ -147,7 +147,7 @@ class Sewn_Social
 	/**
 	 * Load the plugin.
 	 *
-	 * @since	2.1.0
+	 * @since	1.0.0
 	 * @return	void
 	 */
 	public function run()
@@ -161,7 +161,7 @@ class Sewn_Social
 	/**
 	 * On plugins_loaded test if Sewn Im XML Sitemap should be combined in and load the meta box class.
 	 *
-	 * @since	2.1.0
+	 * @since	1.0.0
 	 * @return	void
 	 */
 	public function plugins_loaded()
@@ -196,7 +196,7 @@ class Sewn_Social
 	/**
 	 * Initialize the plugin once during run.
 	 *
-	 * @since	2.1.0
+	 * @since	1.0.0
 	 * @return	void
 	 */
 	public function init()
@@ -218,7 +218,7 @@ class Sewn_Social
 	 *
 	 * If automate is turned on (default), automate the header fields.
 	 *
-	 * @since	2.1.0
+	 * @since	1.0.0
 	 * @return	void
 	 */
 	public function wp_head()
@@ -245,7 +245,7 @@ class Sewn_Social
 	/**
 	 * Get post types.
 	 *
-	 * @since	2.1.0
+	 * @since	1.0.0
 	 * @return	void
 	 */
 	public function post_types()
@@ -261,7 +261,7 @@ class Sewn_Social
 	/**
 	 * Add the meta box.
 	 *
-	 * @since	2.1.0
+	 * @since	1.0.0
 	 * @return	void
 	 */
 	public function register_field_groups()
@@ -283,7 +283,7 @@ class Sewn_Social
 	/**
 	 * Get the fields.
 	 *
-	 * @since	2.1.0
+	 * @since	1.0.0
 	 * @return	void
 	 */
 	public function get_fields()
