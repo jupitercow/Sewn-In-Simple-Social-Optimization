@@ -70,15 +70,22 @@ Works with the [Sewn In Simple SEO](https://wordpress.org/plugins/sewn-in-simple
 
 == Changelog ==
 
+= 1.0.2 - 2017-09-02 =
+
+*   Removed array short syntax, updated meta style.
+
 = 1.0.1 - 2017-08-30 =
 
-*   Added to WordPress.org Repo
+*   Added to WordPress.org Repo.
 
 = 1.0.0 - 2017-02-29 =
 
 *   Initial split off of the SEO plugin.
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+Removed array short syntax, so that we can now support WordPress PHP requirements (5.2.4).
 
 = 1.0.1 =
 This is the first version in the Wordpress repository.
